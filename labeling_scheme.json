@@ -1,0 +1,73 @@
+[
+    {
+        "nameInData": "relation",
+        "variableName": "l_isFamily",
+        "levels": [
+            {
+                "levelName": "yes",
+                "levelContent": [
+                    "연인",
+                    "부부",
+                    "부모/자녀",
+                    "형제/자매",
+                    "기타 가족"
+                ]
+            },
+            {
+                "levelName": "no",
+                "levelContent": [
+                    "모임_동아리 지인",
+                    "직장 동료",
+                    "대학 선후배",
+                    "모임/동아리 지인",
+                    "이웃사촌",
+                    "고향 선후배",
+                    "교회지인",
+                    "교회 지인"
+                ]
+            }
+        ]
+    },
+    {
+        "nameInData": "age",
+        "variableName": "l_isYouth",
+        "levels": [
+            {
+                "levelName": "yes",
+                "levelContent": [
+                    "10대",
+                    "20대"
+                ]
+            },
+            {
+                "levelName": "no",
+                "levelContent": [
+                    "30대",
+                    "40대",
+                    "50대",
+                    "60대 이상",
+                    "60대",
+                    "70대"
+                ]
+            }
+        ]
+    },
+    {
+        "nameInData": "sex",
+        "variableName": "l_isMale",
+        "levels": [
+            {
+                "levelName": "yes",
+                "levelContent": [
+                    "남성"
+                ]
+            },
+            {
+                "levelName": "no",
+                "levelContent": [
+                    "여성"
+                ]
+            }
+        ]
+    }
+]
